@@ -1,0 +1,58 @@
+<html>
+  <head>
+        <title>My Home Page</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		
+  <script>
+
+    function show()
+	  {
+		  var div = document.getElementById("Picture_Of_Me");
+		  div.style.display = "block";
+		  
+	   }
+    
+    function hide()
+		{
+		  var div = document.getElementById("Picture_Of_Me");
+		  div.style.display = "none";
+		  
+		}	
+		
+
+		
+  </script>		
+  </head>
+  
+	
+  <body>
+      <div id="header">
+       <a href="Index.html"> Home | </a>
+	   <a href="Contact_2.html"> Contact | </a>
+	   <a href="Contact_3.html"> Models | </a>
+	   <a href="Contact_4.html"> CV</a>
+ </div>
+         <div>
+		 <br>
+		 <br>
+		 <br>
+		 <p><span class="Subheading_1">About Me</p>
+		 <p> Filler Stuff That can be placed later</p>
+		 </div>
+<div id="MovementofPic">
+<p><span class="Subheading_2"><a onclick="show( 'Picture_Of_Me' )" href="#">Click Me For Picture</a></p>
+<div id="Picture_Of_Me" style="display: none;">
+<img style="width: 300px; height: 300px"  src="images/Me_For_Now.png">
+<a onclick="hide( 'Picture_Of_Me' )" href="#">Close</a>
+</div>
+        
+                                     
+             <div id="footer">
+		     <br>
+		      Ryan Tong 2020
+		     </div>
+	   
+    
+  </body>
+      	   
+</html>   
